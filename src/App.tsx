@@ -19,18 +19,19 @@ function App() {
       </header>
       <section className='text-gray-700' id="home">
         <div className='flex container mx-auto py-20 px-5 flex-col md:flex-row items-center justify-center'>
-          <div className='md:w-1/2'>
-            <h1>Hi!
+          <div className='md:w-1/2 flex-grow mb-16 lg:pr-24 mg:pr-16 text-center md:text-left'>
+            <h1 className='text-3xl sm:text-6xl text-gray-900 font-medium mb-4'>Hi!
             <br/>
             I'm Takuya Kasagawa
             </h1>
-            <p>愛知県在住のフロントエンドエンジニアを目指す笠川拓也です
-            <br/>学習言語はHTML・CSS・Git・React・TypeScriptです
-            <br/>趣味はギター、バンド活動、旅行、サッカー観戦
+            <p className='mb-8 leading-relaxed'>
+              フロントエンドエンジニアを目指す笠川拓也です。
+              <br/>学習言語はHTML・CSS・Git・React・TypeScript
+              <br/>趣味はギター、バンド活動、旅行、サッカー観戦
             </p>
-            <button>Contact me</button>
+            <button className='text-white bg-green-500 py-2 px-6 border-0 rounded text-lg hover:bg-green-600 duration-300'>Contact</button>
           </div>
-          <div className='md:w-1/2 lg:max-w-lg w-2/3' >
+          <div className='md:w-1/2 lg:max-w-lg w-1/2' >
           <img src='./img/icon.jpeg' alt=''/>
           </div>
         </div>
