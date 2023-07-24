@@ -17,6 +17,25 @@ function App() {
           </nav>
         </div>
       </header>
+      <section className='text-gray-700' id="home">
+        <div className='flex container mx-auto py-20 px-5 flex-col md:flex-row items-center justify-center'>
+          <div className='md:w-1/2'>
+            <h1>Hi!
+            <br/>
+            I'm Takuya Kasagawa
+            </h1>
+            <p>愛知県在住のフロントエンドエンジニアを目指す笠川拓也です
+            <br/>学習言語はHTML・CSS・Git・React・TypeScriptです
+            <br/>趣味はギター、バンド活動、旅行、サッカー観戦
+            </p>
+            <button>Contact me</button>
+          </div>
+          <div className='md:w-1/2 lg:max-w-lg w-2/3' >
+          <img src='./img/icon.jpeg' alt=''/>
+          </div>
+        </div>
+
+      </section>
     </>
   )
 }
