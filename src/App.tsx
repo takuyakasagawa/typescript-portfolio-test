@@ -43,9 +43,9 @@ function App() {
               About me
             </h1>
             <p className='pb-10'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore nobis id quibusdam non ex. Non veniam ut assumenda recusandae excepturi!
+              私はフロントエンドエンジニアを目指す会社員です。
             </p>
-            <p>私はフロントエンドエンジニアを目指す会社員です。フロントエンド言語 JavaScript,React,TypeScriptなどを学習しています。高校卒業後に株式会社アイシンに入社後に現在に至るまで、アルミダイカスト製品の品質管理の業務を担当しています。2019年からフロントエンドの言語に興味が持ち、学習をスタートする。2021年4月からIT分野の知見を広げるために東京通信大学 情報マネジメント学部に入学。現職の仕事をしながら、学習を進めています。</p>
+            <p>フロントエンド言語 JavaScript,React,TypeScriptなどを学習しています。高校卒業後に株式会社アイシンに入社後に現在に至るまで、アルミダイカスト製品の品質管理の業務を担当しています。2019年からフロントエンドの言語に興味が持ち、学習をスタートする。2021年4月からIT分野の知見を広げるために東京通信大学 情報マネジメント学部に入学。現職の仕事をしながら、学習を進めています。</p>
           </div>
           {/* カードのdivタグ */}
           <div className='flex flex-wrap'>
