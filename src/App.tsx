@@ -36,7 +36,7 @@ function App() {
         </div>
       </section>
 
-      <section className='text-gray-700 border-t border-gray-200'>
+      <section className='text-gray-700 border-t border-gray-200' id="about">
         <div className='container px-5 py-24 mx-auto'>
           <div className='text-center mb-20'>
             <h1 className='text-2xl sm:text-3xl font-medium mb-2 text-gray-900'>
@@ -171,26 +171,16 @@ function App() {
              <img src='./img/pc.jpg' alt='' className='rounded'/>
             </div>
             {/* right side */}
-            <div className='lg:pl-12 lg:py-6'>
+            <div className='lg:pl-12 lg:py-6 lg:w-1/2'>
               <h1 className='text-2xl sm:text-3xl font-medium text-gray-900 mb-10'>My Skills</h1>
               <div className='flex flex-wrap'>
-                <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="80" preserveAspectRatio="xMinYMin meet" viewBox="0 0 256 361" id="html">
-                  <path fill="#E44D26" d="M255.555 70.766l-23.241 260.36-104.47 28.962-104.182-28.922L.445 70.766h255.11z">
-                  </path>
-                <path fill="#F16529" d="M128 337.95l84.417-23.403 19.86-222.49H128V337.95z">
-                  </path>
-                  <path fill="#EBEBEB" d="M82.82 155.932H128v-31.937H47.917l.764 8.568 7.85 88.01H128v-31.937H85.739l-2.919-32.704zM90.018 236.542h-32.06l4.474 50.146 65.421 18.16.147-.04V271.58l-.14.037-35.568-9.604-2.274-25.471z"></path><path d="M24.18 0h16.23v16.035h14.847V0h16.231v48.558h-16.23v-16.26H40.411v16.26h-16.23V0zM92.83 16.103H78.544V0h44.814v16.103h-14.295v32.455h-16.23V16.103h-.001zM130.47 0h16.923l10.41 17.062L168.203 0h16.93v48.558h-16.164V24.49l-11.166 17.265h-.28L146.35 24.49v24.068h-15.88V0zM193.21 0h16.235v32.508h22.824v16.05h-39.06V0z"></path><path fill="#FFF" d="M127.89 220.573h39.327l-3.708 41.42-35.62 9.614v33.226l65.473-18.145.48-5.396 7.506-84.08.779-8.576H127.89v31.937zM127.89 155.854v.078h77.143l.64-7.178 1.456-16.191.763-8.568H127.89v31.86z">
-                  </path>
-                  </svg>
+                <div>HTML</div>
+                <div className='shadow bg-green-100 mt-2 w-full'>
+                  <div className='bg-green-600 text-xs leading-none py-1 text-center text-white' 
+                    >
+                      85%
+                      </div>
                 </div>
-                <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="73" height="100" viewBox="0 0 128 128">
-                  <path fill="#1572B6" d="M19.67 26l8.069 90.493 36.206 10.05 36.307-10.063 8.078-90.48h-88.66zm69.21 50.488l-2.35 21.892.009 1.875-22.539 6.295v.001l-.018.015-22.719-6.225-1.537-17.341h11.141l.79 8.766 12.347 3.295-.004.015v-.032l12.394-3.495 1.308-14.549h-25.907000000000004l-.222-2.355-.506-5.647-.265-2.998h27.886000000000003l1.014-11h-42.473l-.223-2.589-.506-6.03-.265-3.381h55.597l-.267 3.334-2.685 30.154M89 14.374l-7.149-8.374h7.149v-5h-16v4.363l8.39 7.637h-8.39v5h16zM70 14.374l-6.807-8.374h6.807v-5h-15v4.363l7.733 7.637h-7.733v5h15zM52 13h-8v-7h8v-5h-14v17h14z">
-                  </path>
-                </svg>
-                </div>
-                <div></div>
               </div>
             </div>
         </div>
